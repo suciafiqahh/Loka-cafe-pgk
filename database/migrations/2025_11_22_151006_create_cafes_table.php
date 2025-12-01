@@ -16,6 +16,7 @@ return new class extends Migration
             $table->text('deskripsi')->nullable();
             $table->string('maps_link')->nullable();
             $table->json('fasilitas')->nullable();
+            $table->string('foto_menu')->nullable();
             $table->string('foto_utama')->nullable();
             $table->timestamps();
         });
